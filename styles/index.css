@@ -73,5 +73,24 @@ body {
         border-bottom-color: var(--fita);
     }
 
-    
+    .cartazes {
+        margin-top: 16px;
+        display: flex;
+        gap: 16px;
+    }
+
+    .cartaz {
+        padding: 40px;
+    }
+
+    .cartaz-principal {
+        background-color: var(--caixa-dagua);
+        color: var(--branco);
+        flex: 2;
+    }
+
+    .cartaz-pincipal h1 {
+        font-size: 132px;
+        max-width: 9ch;
+    }
 }
