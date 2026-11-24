@@ -12,13 +12,13 @@
     --fita:#F3C623;
     --branco:#FFFFFF;
 
-    --fonte-cartaz: Big Shoulders Arial Narrow sans-serif;
-    --fonte-texto: Archivo Arial sans-serif
+    --fonte-cartaz: 'Big Shoulders', 'Arial Narrow', sans-serif;
+    --fonte-texto: 'Archivo', 'Arial', sans-serif
 }
 
 body {
     background-color: var(--concreto);
-    text-decoration: var(--tinta);
+    color: var(--tinta);
     font-family: var(--fonte-texto);
     font-size: 17px;
     line-height: 1.55;
@@ -138,6 +138,9 @@ body {
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
+    }
+
+    .card{
         background-color: var(--branco);
         border: 3px solid var(--tinta);
         flex: 1 1 340px;
